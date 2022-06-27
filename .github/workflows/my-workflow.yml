@@ -1,10 +1,10 @@
-name: Some action
+name: JS Actions
 
 on: [push]
 
 jobs:
-  something:
+  action:
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo "doin somethin"
- 
+      - uses: actions/checkout@v1
